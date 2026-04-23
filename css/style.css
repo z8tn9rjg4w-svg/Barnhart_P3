@@ -1,5 +1,14 @@
 
 /* this is a css reset that makes sure the browser won't add any unexpected margins or padding to your page */
+@font-face {
+    font-family: 'Curly';
+    src: url('../img/Curly.woff2') format('woff2'),
+        url('../img/Curly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body, html{
   margin: 0;
   padding: 0;
