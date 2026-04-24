@@ -19,6 +19,7 @@ body, html{
   background-image: url("../img/spiral2.png");
   background-position: left;
   background-size: 250%;
+  background-repeat: no-repeat;
 
 }
 
@@ -41,7 +42,7 @@ h1 {
   font-family: Curly;
   font-size: 180px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -67,6 +68,14 @@ margin-bottom: 15px;
 
 }
 
+p3{
+  font-family: Comic Sans MS;
+  font-size: 15px;
+  align-content: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
 p{
   font-family: Comic Sans MS;
   font-size: 25px;
@@ -81,7 +90,34 @@ p{
 }
 
 @media (max-width: 425px) {
-  /* Mobile Styles */
+    /* Mobile Styles */
+  h1 {
+  font-family: Curly;
+  font-size: 120px;
+}
+
+h4 {
+  font-family: Curly;
+  font-size: 45px;
+
+}
+
+p2{
+font-family: Comic Sans MS;
+font-size: 20px;
+
+}
+
+p3{
+  font-family: Comic Sans MS;
+  font-size: 10px;
+}
+
+p{
+  font-family: Comic Sans MS;
+  font-size: 15px;
+}
+
   iframe {
     display: none;
   }
